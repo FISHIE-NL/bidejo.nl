@@ -17,6 +17,11 @@ body {
     src: url(../fonts/DJGROSS.ttf);
 }
 
+@font-face {
+    font-family: RubikSprayPaint;
+    src: url(../fonts/RubikSprayPaint-Regular.ttf);
+}
+
 /* information for me */
 /*
 color palette: 
@@ -88,8 +93,9 @@ ul {
     font-size: 2rem;
 }
 
-.logo_bidejo {
-    width: 6rem;
+.icons {
+    display: flex;
+    align-items: center;
 }
 
 a:link {
@@ -140,3 +146,5 @@ a:visited {
     margin-right: 16px;
     font-size: 17px;
 }
+
+/* page content homepage*/
